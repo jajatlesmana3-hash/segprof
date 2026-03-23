@@ -1,0 +1,12 @@
+---
+title: "Introduction to segprof"
+author: "Jajat L."
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Introduction to segprof}
+  %\VignetteEngine{knitr::rmarkdown}
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(segprof)

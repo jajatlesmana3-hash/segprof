@@ -1,0 +1,31 @@
+Package: segprof
+Title: Customer Segment Profiler with Automatic Segmentation
+Version: 0.1.0
+Authors@R: c(
+    person("Jajat", "L.", email = "jajatlesmana3@gmail.com", role = c("aut", "cre")),
+    person("Jajat L.", role = "cph", comment = "Copyright holder")
+  )
+Description: Provides a function seg_prof() that automatically segments 
+    customers using RFM and K-means (or uses existing segments) and 
+    generates professional summary tables and visualizations 
+    (bar chart, radar, 2D scatter with ellipses, 3D scatter). 
+    Handles mixed data types (numeric, categorical) robustly.
+License: MIT + file LICENSE
+URL: https://github.com/jajat/segprof
+BugReports: https://github.com/jajat/segprof/issues
+Depends: R (>= 3.5.0)
+Imports: 
+    dplyr,
+    tidyr,
+    ggplot2,
+    plotly,
+    lubridate,
+    rlang,
+    viridisLite
+Suggests: 
+    knitr,
+    rmarkdown,
+    testthat
+VignetteBuilder: knitr
+Encoding: UTF-8
+RoxygenNote: 7.2.3

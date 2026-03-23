@@ -1,0 +1,12 @@
+citHeader("To cite segprof in publications use:")
+
+citEntry(
+  entry    = "Manual",
+  title    = "segprof: Customer Segment Profiler with Automatic Segmentation",
+  author   = person("Jajat", "L."),
+  year     = "2026",
+  note     = "R package version 0.1.0",
+  url      = "https://github.com/jajat/segprof",
+  textVersion = paste("Jajat L. (2026). segprof: Customer Segment Profiler",
+                      "with Automatic Segmentation. R package version 0.1.0.")
+)

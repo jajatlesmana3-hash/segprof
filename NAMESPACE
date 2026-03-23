@@ -1,0 +1,6 @@
+export(seg_prof)
+import(dplyr)
+import(ggplot2)
+import(plotly)
+importFrom(rlang, enquo, as_name, sym)
+importFrom(lubridate, as_date)
